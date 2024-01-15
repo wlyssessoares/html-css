@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+
+header{
+        
+    width: auto;
+    height: 200px;
+    background-color: black;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header > h1 {
+    color: white;
+    background-color: black;
+    font-size: 7em;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+header > p {
+    color: white;
+    
+}
+ .p2 {
+    height: 600px;
+    background-image: url('/Users/wlysses/wlysses-estudos/html-css/desafios/desafio-cordel1/pacote-d012/imagens/background001.jpg');
+    background-size: cover;
+}
