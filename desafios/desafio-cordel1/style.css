@@ -1,5 +1,14 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family: 'Passion';
+    src: url('/Users/wlysses/wlysses-estudos/html-css/desafios/desafio-cordel1/fontes/PassionOne-Bold.ttf') format('opentype');
+    font-weight: normal;
+    
+}
+@font-face {
+    font-family: 'Sriracha';
+    src: url('/Users/wlysses/wlysses-estudos/html-css/desafios/desafio-cordel1/fontes/Sriracha-Regular.ttf') format('opentype');
+    font-weight: normal;}
 
 header{
         
@@ -11,24 +20,56 @@ header{
 
 }
 
+p {
+    font-size: 2.5em;
+    padding-inline: 30px;
+    font-family: 'Sriracha';
+    text-align: ;
+
+}
+
 * {
     margin: 0px;
     padding: 0px;
+
+
 }
 
 header > h1 {
     color: white;
     background-color: black;
-    font-size: 7em;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 8em;
+    font-family: 'Passion';
     
 }
 header > p {
     color: white;
+    font-size: 2em;
     
 }
+.p1 {
+    height: 600px
+    
+}
+
  .p2 {
+    color: white;
     height: 600px;
     background-image: url('/Users/wlysses/wlysses-estudos/html-css/desafios/desafio-cordel1/pacote-d012/imagens/background001.jpg');
     background-size: cover;
+}
+
+.p3 {
+    height: 600px;
+}
+
+.p4 {
+    color: white;
+    min-height: 600px;
+    background-image: url('/Users/wlysses/wlysses-estudos/html-css/desafios/desafio-cordel1/pacote-d012/imagens/background002.jpg');
+    background-size: cover;
+}
+
+.p5 {
+    height: 600px;
 }
