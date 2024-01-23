@@ -1,13 +1,35 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Passion1';
+    src: url('/Users/wlysses/wlysses-estudos/html-css/desafios/desafio-cordel1/fontes/PassionOne-Bold.ttf') format('opentype');
+    font-weight: normal;
+    
+}
+@font-face {
+    font-family: 'Sriracha';
+    src: url('/Users/wlysses/wlysses-estudos/html-css/desafios/desafio-cordel1/fontes/Sriracha-Regular.ttf') format('opentype');
+    font-weight: normal;
+
+}
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion1', sans-serif;
+    --fonte3: 'Sriracha';
+}
+
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
+    
 }
 
 html, body {
     background-color: bisque;
     min-height: 100vh;
+    font-family: var(--fonte1);
 }
 
 header {
@@ -19,6 +41,8 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 8vw;
 }
 
 header > p {
@@ -39,6 +63,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 2vw;
+    font-size: 'Sriracha';
 }
 .imagem {
     background-color: rgba(79, 79, 79, 0.666);
@@ -52,7 +78,8 @@ section {
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.315);
-    width: 400px;
+    width: 35vw;
+    padding: 5px;
 }
 footer {
     background-color: black;
