@@ -2,13 +2,13 @@
 
 @font-face {
     font-family: 'Passion1';
-    src: url('../desafio-cordel1/fontes/PassionOne-Bold.ttf') format('opentype');
+    src: url('fontes/PassionOne-Bold.ttf') format('opentype');
     font-weight: normal;
     
 }
 @font-face {
     font-family: 'Sriracha';
-    src: url('/Users/wlysses/wlysses-estudos/html-css/desafios/desafio-cordel1/fontes/Sriracha-Regular.ttf') format('opentype');
+    src: url('fontes/Sriracha-Regular.ttf') format('opentype');
     font-weight: normal;
 
 }
@@ -64,7 +64,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-size: 3vw;
-    font-size: 'Sriracha';
+    font-family: var(--fonte3);
 }
 .imagem {
     background-color: rgba(60, 59, 59, 0.666);
