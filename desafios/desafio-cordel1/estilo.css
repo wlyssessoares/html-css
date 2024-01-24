@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Passion1';
-    src: url('/Users/wlysses/wlysses-estudos/html-css/desafios/desafio-cordel1/fontes/PassionOne-Bold.ttf') format('opentype');
+    src: url('../desafio-cordel1/fontes/PassionOne-Bold.ttf') format('opentype');
     font-weight: normal;
     
 }
