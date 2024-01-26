@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    </head>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+             }
+             td, th { 
+                border: 1px solid black;
+                text-align: center;
+                padding: 10px;
 
-</head>
+            }
+            thead {
+                background-color: rgba(112, 112, 112, 0.577);
+            }
+    </style>
 <body>
     <h1>Uso de Tabelas grandes</h1>
     <table>
@@ -18,9 +34,17 @@
 
         </thead>
         <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>44 411 238</td>
+            </tr>
 
         </tbody>
         <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td>0000000</td>
+            </tr>
 
         </tfoot>
     </table>
