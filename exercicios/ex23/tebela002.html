@@ -11,6 +11,7 @@
         }
         table{
             width: 500px;
+            border-collapse: collapse;
              }
              td, th { 
                 border: 1px solid black;
@@ -18,8 +19,16 @@
                 padding: 10px;
 
             }
-            thead {
+            thead, tfoot {
                 background-color: rgba(112, 112, 112, 0.577);
+                color: white;
+            }
+            .num {
+                background-color: beige;
+            }
+
+            .por {
+                text-align: right;
             }
     </style>
 <body>
@@ -29,6 +38,7 @@
             <tr>
                 <th>Estado</th>
                 <th>População</th>
+                <th>%</th>
 
             </tr>
 
@@ -36,14 +46,32 @@
         <tbody>
             <tr>
                 <td>São Paulo</td>
-                <td>44 411 238</td>
+                <td class="num">44 411 238</td>
+                <td class="por">21,88%</td>
             </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718</td>
+                <td class="por">10,11%</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+                <td class="por">7,91%</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 141 626</td>
+                <td class="por">6,96%</td>
+            </tr>
+            
 
         </tbody>
         <tfoot>
             <tr>
                 <th>Total de Habitantes</th>
-                <td>0000000</td>
+                <td>95 146 106</td>
+                <td class="por"> Total: 46,86%</td>
             </tr>
 
         </tfoot>
