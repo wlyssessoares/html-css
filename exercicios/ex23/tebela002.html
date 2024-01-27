@@ -13,6 +13,14 @@
             width: 500px;
             border-collapse: collapse;
              }
+             caption {
+                background-color: bisque;
+                font-size: 1.5em;
+                padding: 10px;
+                border-left: 1px solid black;
+                border-top: 1px solid black;
+                border-right: 1px solid black;
+             }
              td, th { 
                 border: 1px solid black;
                 text-align: center;
@@ -20,20 +28,26 @@
 
             }
             thead, tfoot {
-                background-color: rgba(112, 112, 112, 0.577);
+                background-color: rgba(26, 26, 26, 0.577);
                 color: white;
             }
             .num {
-                background-color: beige;
+                
+                width: 80px;
             }
 
             .por {
+                width: 70px;
                 text-align: right;
+            }
+            tbody > tr:nth-child(2n) {
+                background-color: lightgray;
             }
     </style>
 <body>
     <h1>Uso de Tabelas grandes</h1>
     <table>
+        <caption>População por Estado</caption>
         <thead>
             <tr>
                 <th>Estado</th>
