@@ -5,13 +5,11 @@ let nickname = "Wlysses"
 console.log("Bem vindo " + nickname)
 
 
+const notificacao = "Pokemon Go diz:"
 
 
 console.log( notificacao + "Tem um novo Pokemon Go na região")
 console.log( notificacao + "Você foi derrotado por um líder")
-
-
-
 
 let poteCafe = "Café Pilão"
 let poteAcucar = "Açucar Cristal"
